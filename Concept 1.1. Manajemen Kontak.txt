@@ -1,0 +1,26 @@
+Nama Proyek: Sistem Manajemen Mahasiswa
+Pencetus ide : Jafaruddin Ilham
+Tgl/waktu : 25/03/2024 WIB 22.47
+
+Ini merupakan sebuah konsep untuk projek praktikum uts 
+
+Deskripsi Proyek:
+Aplikasi manajemen kontak akan memungkinkan pengguna untuk menyimpan, mengakses, mengedit, dan menghapus informasi kontak seperti nama, nomor telepon, alamat email, dan sebagainya. Aplikasi ini akan memiliki antarmuka sederhana berbasis teks yang berjalan di terminal.
+
+Penjelasan Implementasi:
+
+Pointer: menggunakan pointer untuk mengelola struktur data yang dinamis, seperti linked list atau double linked list. Pointer akan digunakan untuk menghubungkan setiap simpul pada linked list.
+
+Tipe Data dan String: menggunakan tipe data seperti string untuk menyimpan informasi kontak seperti nama, nomor telepon, dan alamat email. Anda dapat menggunakan library string bawaan C++ atau mengimplementasikan kelas string sederhana sendiri.
+
+Array 1 Dimensi dan Record: menggunakan array 1 dimensi untuk menyimpan daftar kontak. Setiap elemen array dapat menjadi record yang berisi informasi lengkap tentang satu kontak, seperti nama, nomor telepon, dan alamat email.
+
+Array 2 Dimensi: menggunakan array 2 dimensi untuk menyimpan informasi tambahan tentang setiap kontak, seperti alamat rumah atau informasi pekerjaan. Array 2 dimensi ini dapat digunakan sebagai bagian dari record kontak.
+
+Record (Struct): menggunakan struct untuk membuat tipe data khusus yang menggabungkan beberapa bidang untuk menyimpan informasi kontak. Setiap struct akan mewakili satu kontak dalam aplikasi.
+
+Struktur Data dan Modul Struktur Data: Anda dapat mengimplementasikan struktur data seperti linked list atau double linked list untuk menyimpan dan mengelola daftar kontak. Modul struktur data akan berisi fungsi-fungsi yang memungkinkan pengguna untuk menambahkan, menghapus, dan mengedit kontak serta mencari kontak berdasarkan kriteria tertentu.
+
+Linked List:  menggunakan linked list untuk menyimpan daftar kontak. Setiap simpul dalam linked list akan mewakili satu kontak dan akan terhubung dengan simpul lainnya menggunakan pointer.
+
+Double Linked List: menggunakan double linked list sebagai alternatif dari linked list biasa. Double linked list memungkinkan perpindahan maju dan mundur di antara simpul-simpulnya. Ini dapat berguna jika Anda ingin mengimplementasikan fitur-fitur seperti penghapusan kontak di tengah-tengah daftar.
